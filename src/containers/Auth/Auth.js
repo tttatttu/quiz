@@ -5,6 +5,24 @@ import Input from "../../components/UI/Input/Input";
 
 const Auth  = () => {
 
+  const state = {
+    formControls: {
+      email: {
+        value: '',
+        type: 'email',
+        label: 'Email',
+        errorMessage: 'Введите корректный email',
+        valid: false,
+        touched: false,
+        validation: {
+          required: true,
+          email: true
+        }
+      },
+      password: {}
+    }
+  }
+
   const loginHandler = () => {
 
   };
