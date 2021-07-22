@@ -10,7 +10,7 @@ function App() {
   
     return (
       <Layout>
-        <Quiz />
+        {/*<Quiz />*/}
         <Switch>
           <Route path="/auth" component={Auth} />
           <Route path="/quiz-creator" component={QuizCreator} />
